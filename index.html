@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Splat.io</title>
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
-        <canvas id="gameCanvas"></canvas>
-    <script src="game.js"></script>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Splat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div id="mainMenu">
+    <h1>Splat</h1>
+    <input type="text" id="playerName" placeholder="Enter your name">
+    <button id="playBtn">Play</button>
+    <button id="settingsBtn">Settings</button>
+  </div>
+
+ 
+  <canvas id="gameCanvas" style="display: none;"></canvas>
+
+  <script src="game.js"></script>
+</body>
 </html>
